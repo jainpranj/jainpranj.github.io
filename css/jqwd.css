@@ -1,0 +1,72 @@
+/* Modifications and additions for jQuery for Web Designers */
+
+#flower-items {
+	padding: 0;
+	margin: 0;
+	
+	zoom: 1;
+}
+
+#flower-items:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#flower-items li {
+	list-style-type: none;
+	margin: 0 1em 1em 0;
+	padding: 0;
+	float: left;
+	
+	text-align: center;
+	position: relative;
+}
+
+#flower-items > li:before {
+	background: transparent;
+}
+
+#flower-items h4 {
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+#flower-items a {
+	text-decoration: none;
+	display: block;
+}
+
+#flower-items img {
+	vertical-align: bottom;
+	max-width: 100%;
+}
+
+#flower-items .info {
+	position: absolute;
+	width: 80%;
+	margin-left: 10%;
+	top: 50%;
+	font-size: 85%;
+	line-height: 1.2;
+	background: #fff;
+	border: 1px solid #92c100;
+	border-radius: 4px;
+	padding: 4px;
+	
+	display: none;
+}
+
+#cart-target {
+	margin-top: 30px;
+	height: auto;
+	width: 95%;
+	border: 1px solid #999;
+	padding: 2.5%;
+}
+
+#flower-description h3 {
+	margin-bottom: 1em;
+}

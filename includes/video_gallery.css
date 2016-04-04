@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* CSS Document                  */
+/* Written by Chris Converse     */
+/* for Lynda.com                 */
+
+.clear_both { clear: both; line-height: 1px; }
+
+body { background-color: white; margin: 40px; }
+
+.video_gallery_container {
+	padding: 25px 0px 25px 115px;
+	border: 2px solid #444;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background: #000 url(../images/filmstrip_tile.png) repeat-y 0px 0px;
+}
+
+a.videoLink {
+	display: block;
+	margin: 0px 15px 15px 0px;
+	padding: 0px;
+	width: 200px;
+	height: 115px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	background: no-repeat 0px 0px;
+	border: 1px solid #000;
+}
+
+a.videoLink img.play { position: absolute; top: 25px; left: 75px; }
+a.videoLink div.caption {
+	position: absolute; width: 180px; bottom: 0px; padding: 15px 10px 10px 10px; color: #fff; background-color: rgba(0,0,0,.5);
+	font-family: Arial; font-size: 12px;
+}
+a.videoLink:hover { border-color: #fff; }
